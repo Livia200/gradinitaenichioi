@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="grădiniță, Enichioi, grădinița Enichioi, copii, copiii, educatori, investiții a grădiniței, înscriere la grădiniță, Ababi Viorica, satul Enichioi, investiții în Enichioi, investiții din satul Enichioi">
+    <meta name="description"
+        content="Acest site informează pe toți cei interesați despre instituția de educație timpurie „Enichioi” din satul Enichioi, oferind informații despre cadrele didactice, orar de activitate, activități cu copiii.">
+    <meta name="author" content="Caspirovschi Dașa, Știrbu Livia">
+    <link rel="icon" href="../images/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/main.js"></script>
+    <title>Grădinița Enichioi</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logotot">
+            <img class="logo" src="../images/logo.jpg">
+            <h1 class="titlu">Grădinița Enichioi</h1>
+        </div>
+
+
+        <nav>
+            <a href="../index.html">Acasă</a>
+            <a href="contacte.html">Contacte</a>
+        </nav>
+        <i id="hamburger" onclick="mobileMenu()"  class="fa-solid fa-bars"></i>
+
+    </header>
+
+    <main>
+        <section>
+
+            <div class="locatie">
+
+                <h2 class="foto">Date de contact</h2>
+
+                <table class="contacte" border="1px solid" cellpadding="5px" cellspacing="2px">
+
+                    <tr>
+                        <th>Numele</th>
+                        <th>Telefon</th>
+                        <th>E-mail</th>
+                    </tr>
+
+                    <tr>
+                        <td>Grădinița</td>
+                        <td> <a href="tel:027372552">027372552</a></td>
+                        <td><a href="mailto:grad.enichioi@gmail.com">grad.enichioi@gmail.com</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>Ababi Viorica</td>
+                        <td><a href="tel:078239062">078239062</a></td>
+                        <td><a href="mailto:grad.enichioi@gmail.com">grad.enichioi@gmail.com</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>Știrbu Elena</td>
+                        <td><a href="tel:078244760">078244760</a></td>
+                        <td><a href="mailto:opreaelena801@gmail.com">opreaelena801@gmail.com</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>Marcu Eugenia</td>
+                        <td><a href="067270673">067270673</a></td>
+                        <td><a href="mailto:grad.enichioi@gmail.com">grad.enichioi@gmail.com</a></td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <div class="localizare">
+
+
+                    <form id="formular" method="POST" action="https://sheetdb.io/api/v1/lfw0j77le0bv7">
+
+                            <legend>Formular de înscriere</legend>
+    
+                            <label for="nume">Nume, Prenume*</label> <br />
+                            <input  placeholder="Ex: Popescu Ion" type="text" id="nume" required name="data[nume]"> <br />
+    
+                            <label for="data">Data nașterii*</label> <br />
+                            <input id="data" type="date" required name="data[data]"> <br />
+    
+                            Gen* <br />
+                            <label for="feminin">Feminin</label>
+                            <input class="radio" type="radio" id="feminin" checked required name="data[gen]"> <br />
+                            <label for="masculin">Masculin</label> 
+                            <input class="radio" type="radio" id="masculin" name="data[gen]"> <br />
+    
+                            <label for="grupa">Grupa*</label> <br />
+                            <select id="grupa" required name="data[grupa]">
+                                <option disabled selected>Selctează grupa</option>
+                                <option>Grupa Mică</option>
+                                <option>Grupa Mijlocie</option>
+                                <option>Grupa Pregătitoare</option>
+                            </select> <br />
+    
+                            <label for="email">Adresa de e-mail*</label> <br />
+                            <input type="email" id="email" required name="data[email]"> <br />
+    
+                            <label for="telefon">Telefon*</label> <br />
+                            <input id="telefon" type="tel" name="data[telefon]"> <br />
+                            <br />
+    
+                            <input type="submit" value="Transmite">
+    
+                    </form>
+        
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39066.27421235638!2d28.399105251416763!3d46.22018879200301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b6180d456b2f69%3A0x76b9eaf582d7db9d!2zR3LEg2RpbmnIm2EgRW5pY2hpb2k!5e0!3m2!1sru!2s!4v1673531439711!5m2!1sru!2s"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <span>Grădinița Enichioi 2023</span>
+
+    </footer>
+
+</body>
+
+</html>
